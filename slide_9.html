@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide_9</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @media (max-width:767px) {
+            .content_wrapper{
+                margin: 0px 20px;
+            }
+            .content_wrapper h2{
+                color: #026786;
+                font-size: 28px;
+            }
+            h2,h4 {
+                font-family: 'MuseoSansRounded_900';
+                margin: 0px;
+            }
+            p,input,a {
+                font-family: 'MuseoSansRounded_700';
+            }
+            .content_wrapper p{
+                font-size: 15px;
+                color: #4A4A4A ;
+            }
+            .image_wrapper{
+                display: flex;
+                justify-content: space-between;
+            }
+            .image_wrapper div{
+                width: 50px;
+                height: 50px;
+                background-color: #026786;
+                border-radius: 8px;
+            }
+            .image_wrapper div img{
+                width: 50px;
+                height: 50px;
+                border-radius: 8px;
+            }
+            .content_wrapper button{
+                background-color: #0AA3AD;
+                border-radius: 4px;
+                color: white;
+                border: none;
+                width: 100%;
+                padding: 16px 0px;
+                margin-top: 20px;
+                font-size: 18px;
+                opacity: 60%;
+            }
+            .fuel_box{
+                box-shadow: 1px 1px 5px #EBEBEB;
+                padding: 15px;
+                margin-top: 10px;
+                border-radius: 8px;
+            }
+            .fuel_box .fuel_level p:first-child{
+                font-size: 14px;
+                margin-top: 7px;
+                margin-bottom: 0px;
+            }
+            .fuel_box .fuel_level p:nth-child(2){
+                font-size: 12px;
+                line-height: 18px;
+            }
+            .footer{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 20px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="content_wrapper">
+        <div>
+            <h2>Fuel gauge level</h2>
+            <p>Great! The photo will be added to your trip summary.</p>
+            <div class="image_wrapper">
+                <div><img src="images/slide_7.svg" alt=""></div>
+            </div>
+            <div class="fuel_box">
+                <div class="fuel_level">
+                    <p><b>Have you captured all visible damages?</b></p>
+                    <p>Take your time to inspect any damages. This will prevent any issues while ending the trip.</p>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+           <button>Continue to The next step</button>
+        </div>
+    </div>
+</body>
+</html>
